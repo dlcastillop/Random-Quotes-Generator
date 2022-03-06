@@ -26,10 +26,7 @@ function construirEnlaces() {
   document
     .getElementsByTagName("a")[4]
     .setAttribute("href", "https://twitter.com/intent/tweet?text=%22" + texto);
-  document
-    .getElementsByTagName("a")[5]
-    .setAttribute("href", "https://api.whatsapp.com/send?text=%22" + texto);
 }
 
 getapi();
-document.getElementById("boton").addEventListener("click", getapi);
+document.getElementsByTagName("button")[0].addEventListener("click", getapi);

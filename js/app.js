@@ -12,7 +12,7 @@ async function getapi() {
   construirEnlaces();
 }
 
-// Construir enlace para Twitter y Whatsapp
+// Construir enlace para Twitter
 function construirEnlaces() {
   let frase = document.getElementsByTagName("h1")[0].innerHTML;
   let autor = document.getElementsByTagName("h2")[0].innerHTML;
